@@ -65,7 +65,7 @@ Prepare for and configure the build
 
 3.5 To specify a linux-altera kernel, add the following to your conf/local.conf
 
-   PREFERRED_PROVIDER_virtual = "linux-altera-lts"
+   PREFERRED_PROVIDER_virtual/kernel = "linux-altera-lts"
    PREFERRED_VERSION_linux-altera-lts = "5.4%"
 
 Building images and sdk
